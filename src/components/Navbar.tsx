@@ -18,7 +18,7 @@ const Navbar = ({ handleSearch }: NavbarProps) => {
 
     return ( 
         <div className="p-8 flex items-center">
-            <img src="/src/assets/performance.png" className="size-8" />
+            <img src="/performance.png" className="size-8" />
             <div className="absolute left-1/2 -translate-x-1/2 flex flex-row rounded-lg shadow-lg p-4">
                 <div className="mr-8">
                     <Listbox value={selectedServer} onChange={setSelectedServer}>
